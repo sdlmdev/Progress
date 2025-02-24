@@ -1,0 +1,35 @@
+.svgCircle {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  transform: rotate(-90deg);
+  transition: 0.5s ease-in-out;
+}
+
+.circleLoader {
+  fill: none;
+  stroke: var(--active-color, #255BF6);
+  stroke-width: 8px;
+  transform-origin: center;
+  transition: stroke-dashoffset var(--main-transition, 0.5s ease);
+}
+
+.circleBackground {
+  fill: none;
+  stroke: var(--progress-bar-bg-color, #EBF0F5);
+  stroke-width: 8px;
+}
+
+.animated {
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,16 @@
+@use '@/styles/mixins' as *;
+
+.input {
+  all: unset;
+  cursor: text;
+  box-shadow: 0 0 0 1px #000;
+  border-radius: var(--input-br);
+  width: var(--input-width);
+  height: var(--input-height);
+  text-align: center;
+}
+
+.label {
+  @include flex-row-center;
+  gap: 20px;
+}
