@@ -29,6 +29,7 @@
 ## Установка и запуск проекта
 
 - Клонировать репозиторий: `git clone https://github.com/sdlmdev/Progress.git`
+- Перейти в папку с проектом: `cd progress`
 - Установить зависимости: `npm install`
 - Запустить проект: `npm run start`
 
